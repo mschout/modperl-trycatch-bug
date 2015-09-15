@@ -1,0 +1,9 @@
+PerlModule Apache::TryCatch
+
+PerlSwitches -I@ServerRoot/../lib
+
+<Location /crashme>
+    SetHandler perl-script
+    PerlResponseHandler Apache::TryCatch
+</Location>
+

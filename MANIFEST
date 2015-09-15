@@ -1,0 +1,10 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+lib/Apache/TryCatch.pm
+t/conf/extra.conf.in
+t/crash.t
+t/SMOKE
+t/TEST.PL
+
